@@ -10,7 +10,10 @@ University of Turin, held on Mar. 8 - 18, 2021.
 ## Before the course starts
 
 - We will be using python, in particular I advise you to get familiar with Jupyter notebooks, numpy and pandas before the course starts. No expert knowledge is required, but doing a couple of tutorials on these topics (easily found on the web) is highly recommended.
-- We will use github for authentication on JupyterHub. Please send us your github account (who should not contain any special character, such as -, _, ., etc).
+- We will use github for authentication on JupyterHub. 
+  - Please send us your github account. 
+  - The username should not contain any special character, such as -, _, ., etc. 
+  - If it does, please create a new account that fulfills the requirements.
 
 ## Practicalities
 
