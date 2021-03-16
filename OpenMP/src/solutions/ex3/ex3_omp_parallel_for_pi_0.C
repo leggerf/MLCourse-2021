@@ -33,7 +33,7 @@ int main()
     #pragma omp parallel
     {
         n_threads = omp_get_num_threads();
-        thread_id = omp_get_thread_num();
+        int thread_id = omp_get_thread_num();
 
         #pragma omp for
         for (unsigned long long i=1; i<=common::num_steps; i++) {

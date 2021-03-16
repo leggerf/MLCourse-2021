@@ -32,7 +32,7 @@ int main()
     #pragma omp parallel
     {
         n_threads = omp_get_num_threads();
-        thread_id = omp_get_thread_num();
+        int thread_id = omp_get_thread_num();
 
         std::cout << "n threads "<<n_threads<<std::endl;
         std::cout << "thread id "<<thread_id<<std::endl;
