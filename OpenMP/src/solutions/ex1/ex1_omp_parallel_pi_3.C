@@ -56,7 +56,7 @@ int main()
         }
     }
 
-    pi = step * std::accumulate(sums.begin(), sums.end(), 0);
+    pi = step * std::accumulate(sums.begin(), sums.end(), 0.);
 
     common::print_results(pi,n_threads);
 
