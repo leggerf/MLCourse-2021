@@ -6,7 +6,7 @@ else
         CXX=g++
     endif
     ifeq ($(UNAME_S),Darwin)
-        CXX=/usr/local/opt/llvm/bin/clang++
+        CXX=g++
     endif
 endif
 
