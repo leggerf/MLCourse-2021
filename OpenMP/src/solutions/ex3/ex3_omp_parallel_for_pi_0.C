@@ -31,7 +31,7 @@ int main()
     double sums[128];
 
     for(unsigned int l=0; l<128; l++){
-        sums[j] = 0;
+        sums[l] = 0;
     }
 
     #pragma omp parallel
