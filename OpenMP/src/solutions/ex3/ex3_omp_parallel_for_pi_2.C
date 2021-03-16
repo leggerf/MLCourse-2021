@@ -40,7 +40,7 @@ int main()
         for (unsigned long long i=1; i<=common::num_steps; i++) {
             double x = (i - 0.5) * step; //computing the x value
             tmp = 4.0 / (1.0 + x * x);
-            #pragma omp atomic capture
+            #pragma omp atomic update
             sum += tmp; //adding to the cumulus
         }
     }
