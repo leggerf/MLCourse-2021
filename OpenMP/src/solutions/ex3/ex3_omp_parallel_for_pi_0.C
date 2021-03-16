@@ -30,6 +30,10 @@ int main()
     int n_threads=1;
     double sums[128];
 
+    for(unsigned int l=0; l<128; l++){
+        sums[j] = 0;
+    }
+
     #pragma omp parallel
     {
         n_threads = omp_get_num_threads();
