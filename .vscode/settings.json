@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "ex3_omp_parallel_for_pi_3.C": "cpp",
+        "ex3_omp_parallel_for_pi_1.C": "cpp",
+        "ex3_omp_parallel_for_pi_0.C": "cpp",
+        "ex2_omp_parallel_for_pi_1.C": "cpp",
+        "ex2_omp_parallel_for_pi_0.C": "cpp",
+        "ex1_omp_parallel_pi_3.C": "cpp",
+        "ex1_omp_parallel_pi_0.C": "cpp"
+    }
+}

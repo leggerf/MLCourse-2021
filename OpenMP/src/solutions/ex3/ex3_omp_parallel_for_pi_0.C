@@ -43,7 +43,7 @@ int main()
     }
 
     for(unsigned int j=0; j<128; j++){
-        sum += sums[j]
+        sum += sums[j];
     }
 
     pi = step * sum;
